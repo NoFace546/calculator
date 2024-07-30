@@ -1,0 +1,48 @@
+
+#calculator {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 75vh;
+    max-width: 500px;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:10px;
+
+}
+
+#screen{
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#buttons{
+    flex: 3;
+    background-color: white;
+    display: flex;
+    gap: 5%;
+
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.button{
+    width: 20%;
+    height: 15%;
+    background-color: green;
+    display: flex;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
